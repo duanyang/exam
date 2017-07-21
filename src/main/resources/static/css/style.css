@@ -1,0 +1,70 @@
+form.login {
+	width: 50%;
+	margin-top: 20%;
+	text-align: center;
+	margin-left: 20%;
+	color: white;
+	font-size: 25px;
+}
+
+input.login{
+	font-size: 25px;
+}
+
+body.home{
+	background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRC_kW32ECKL_EykN7EObbt5iReC5TiJUNEwPg8UB5jBiMI09oC");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Add padding to containers */
+.container {
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input.username, input.name, input.email, input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button.login, button.register {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button.login:hover, button.register:hover{
+    opacity: 0.8;
+}
+
+table.courseList{
+	width: 50%;
+	margin-left: 25%;
+	font-size: 15px;
+	margin-top: 20%;
+	background-color: white;
+}
+
+div.adminMenu, table.addQuestion, table.score, table.scoreList, table.addExam{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
